@@ -1,0 +1,155 @@
+/*=global=*/
+
+:root {
+  --light-purple: #8a71c9;
+  --dark-purple: #2a0074;
+  --cinza: #baacc5;
+}
+
+body {
+  background-color: var(--light-purple);
+  font-size: 16px;
+  color: white;
+  margin: 0px 0px 30px 0px;
+  text-align: justify;
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+}
+
+/*=header=*/
+
+header {
+  background: var(--cinza);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 500;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.mulheres {
+  color: var(--dark-purple);
+}
+
+/*=paragrafos=*/
+section {
+  max-width: 70%;
+  margin: auto;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+section section {
+  width: 100%;
+}
+
+/*imagens*/
+
+img {
+  width: 70%;
+  height: 50%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
+  border-radius: 0.5rem;
+  margin: auto;
+  display: block;
+}
+
+/*=titles=*/
+
+h2 {
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--dark-purple);
+}
+
+h3 {
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 300;
+  color: var(--dark-purple);
+  font-size: 1.4rem;
+}
+
+h4 {
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 300;
+  color: var(--dark-purple);
+}
+
+/*lista e links*/
+
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cinza);
+}
+
+/*menu .principal*/
+
+.principal {
+  background-color: #2a0074;
+  height: 3.5rem;
+  padding-top: 0.25rem;
+  text-align: center;
+  display: block;
+}
+.principal ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  display: block;
+}
+
+.principal ul li a:hover {
+  color: black;
+  display: block;
+}
+
+.principal li {
+  display: inline-block;
+  line-height: 0.25rem;
+  margin: 0 89px;
+}
+
+/*final da pagina*/
+a:hover {
+  color: black;
+}
+
+.finalpage {
+  text-align: center;
+  max-width: 70%;
+}
+
+form {
+  border-radius: 2;
+}
+
+button {
+  background-color: whitesmoke;
+  border-radius: 0.18rem;
+  border: solid;
+  border: 1px solid transparent;
+  padding: 2 20;
+}
+button:hover {
+  background-color: var(--cinza);
+}
+/*responsivo*/
+
+@media (max-width: 800px) {
+  html {
+    font-size: 16px;
+  }
+}
