@@ -20,7 +20,7 @@ body {
 
 header {
   background: var(--cinza);
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
   text-align: center;
 }
 
@@ -101,7 +101,8 @@ a {
 .principal {
   background-color: #2a0074;
   height: 3.5rem;
-  padding-top: 0.25rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
   text-align: center;
   display: block;
 }
